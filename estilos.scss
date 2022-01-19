@@ -18,7 +18,8 @@ $Colores: (
     2: #F7F7F7,
     3: #0A0A0A,
     4: #D30303,
-    5: #0029CF
+    5: #0029CF,
+    6: #525252
 );
 
 /*  Mixins  */
@@ -46,6 +47,13 @@ $Colores: (
     justify-content: center;
     align-items: center;
 }
+@mixin Display4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 @import "header";
 @import "main";
+@import "footer";

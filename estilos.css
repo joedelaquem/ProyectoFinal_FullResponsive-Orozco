@@ -218,4 +218,105 @@ header {
   width: 200px;
   height: 300px;
 }
+
+.Footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #525252;
+  width: 100%;
+}
+
+.Footer div img {
+  margin-top: 30px;
+  width: 80px;
+  height: 80px;
+}
+
+.Contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+  background-color: red;
+}
+
+.Contacto h3 {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #F7F7F7;
+  text-decoration: none;
+}
+
+.Contacto a {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #0029CF;
+  text-decoration: none;
+}
+
+.Contacto a:active {
+  color: #D30303;
+}
+
+.Redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.Redes h3 {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #F7F7F7;
+  text-decoration: none;
+}
+
+.Redes .Icono {
+  background-color: green;
+  height: 20px;
+}
+
+.Redes .Icono a {
+  height: 20px;
+  width: 20px;
+}
+
+.Redes .Icono a img {
+  height: 20px;
+  width: 20px;
+}
 /*# sourceMappingURL=estilos.css.map */

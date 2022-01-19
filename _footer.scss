@@ -1,0 +1,66 @@
+.Footer{
+    @include Display3;
+    background-color: map-get($Colores , 6);
+    width: 100%;
+
+        div{
+            
+                img{
+                    margin-top: 30px;
+                    width: 80px;
+                    height: 80px;
+                }
+        }
+}
+
+.Contacto{
+    @include Display3;
+    margin-top: 30px;
+    background-color: red;
+
+        h3{
+            font-size: 10px;
+            text-transform: uppercase;
+            color: map-get($Colores , 2);
+            text-decoration: none;
+        }
+
+            a{
+                font-size: 10px;
+                text-transform: uppercase;
+                color: map-get($Colores , 5);
+                text-decoration: none;
+            }
+            a:active{
+                color: map-get($Colores , 4);
+            }
+}
+
+.Redes{
+    @include Display3;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+
+        h3{
+            font-size: 10px;
+            text-transform: uppercase;
+            color: map-get($Colores , 2);
+            text-decoration: none;
+        }
+
+        .Icono{
+            background-color: green;
+            height: 20px;
+
+                a{
+                    height: 20px;
+                    width: 20px;
+
+                        img{
+                            height: 20px;
+                            width: 20px;
+                        }
+                }
+        }
+}
