@@ -1,0 +1,54 @@
+header{
+    margin-bottom: 50px;
+}
+.Logo{
+    @include Display1;
+        
+        img{
+            position: relative;
+
+            width: 80px;
+            height: 80px;
+        }
+
+            select{
+                height: 40px;
+                width: 80px;
+                margin-right: 10px;
+                border: 1px solid;
+                border-color: map-get($Colores, 2);
+                background-color: map-get($Colores, 2);
+                border-radius: 2px;
+                font-size: 15px;
+                box-shadow: map-get($Shadow , Inactiva);
+                transition: all .2s;
+            }
+            select:active{
+                box-shadow: map-get($Shadow, Activa);
+            }
+}
+
+.Navbar{
+    @include Display2;
+    
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            font-size: 15px;
+            color: map-get($Colores, 3);
+            border: 1px solid;
+            border-color: map-get($Colores, 2);
+            border-radius: 2px;
+            background-color: map-get($Colores, 2);
+            height: 40px;
+            margin: 5px;
+            padding: 5px;
+            box-shadow: map-get($Shadow , Inactiva);
+            transition: all .2s;
+        }
+        a:active{
+            box-shadow: map-get($Shadow, Activa);
+        }
+}
