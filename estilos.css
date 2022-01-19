@@ -107,4 +107,50 @@ header {
   -webkit-box-shadow: 0 0 20px red;
           box-shadow: 0 0 20px red;
 }
+
+.Banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(./Assets/Deathstarbannermobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 5px 5px 10px gray;
+          box-shadow: 5px 5px 10px gray;
+}
+
+.Banner h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #F7F7F7;
+}
+
+.Banner button {
+  margin-top: 30px;
+  height: 30px;
+  width: 100px;
+  border: 1px solid;
+  border-color: #F7F7F7;
+  background-color: #F7F7F7;
+  border-radius: 2px;
+  font-size: 15px;
+}
+
+.Banner button:active {
+  -webkit-box-shadow: 0 0 20px red;
+          box-shadow: 0 0 20px red;
+}
 /*# sourceMappingURL=estilos.css.map */
