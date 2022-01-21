@@ -53,8 +53,13 @@ $Colores: (
     justify-content: center;
     align-items: center;
 }
-
+@mixin Display5{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
 @import "header";
 @import "main";
 @import "footer";
-@import "nuestro-trabajo_main";
+@import "nuestro-trabajo";
