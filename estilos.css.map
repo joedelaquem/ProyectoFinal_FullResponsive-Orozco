@@ -5,7 +5,8 @@
         "estilos.scss",
         "_header.scss",
         "_main.scss",
-        "_footer.scss"
+        "_footer.scss",
+        "_nuestro-trabajo_main.scss"
     ],
     "names": [],
     "file": "estilos.css"
