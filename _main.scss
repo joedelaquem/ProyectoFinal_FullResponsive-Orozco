@@ -1,6 +1,6 @@
-.Banner{
+.contenedor_carreras{
     @include Display3;
-    background-image: url(./Assets/Deathstarbannermobile.jpg);
+    background-image: url(./Assets/carreras_banner2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
@@ -16,8 +16,8 @@
 
             button{
                 margin-top: 30px;
-                height: 30px;
-                width: 100px;
+                height: 40px;
+                width: 120px;
                 border: 1px solid;
                 border-color: map-get($Colores, 2);
                 background-color: map-get($Colores, 2);
