@@ -108,7 +108,7 @@ header {
           box-shadow: 0 0 20px red;
 }
 
-.contenedor_carreras {
+.Banner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -122,7 +122,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(./Assets/carreras_banner2.jpg);
+  background-image: url(./Assets/Deathstarbannermobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
@@ -131,17 +131,18 @@ header {
           box-shadow: 5px 5px 10px gray;
 }
 
-.contenedor_carreras h1 {
+.Banner h1 {
   font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  text-align: center;
   color: #F7F7F7;
 }
 
-.contenedor_carreras button {
+.Banner button {
   margin-top: 30px;
   height: 40px;
-  width: 120px;
+  width: 100px;
   border: 1px solid;
   border-color: #F7F7F7;
   background-color: #F7F7F7;
@@ -149,7 +150,7 @@ header {
   font-size: 15px;
 }
 
-.contenedor_carreras button:active {
+.Banner button:active {
   -webkit-box-shadow: 0 0 20px red;
           box-shadow: 0 0 20px red;
 }
@@ -487,7 +488,7 @@ header {
   font-size: 15px;
 }
 
-.Banner {
+.contenedor_carreras {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -501,27 +502,27 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(./Assets/Deathstarbannermobile.jpg);
+  background-image: url(./Assets/carreras_banner2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   -webkit-box-shadow: 5px 5px 10px gray;
           box-shadow: 5px 5px 10px gray;
 }
 
-.Banner h1 {
+.contenedor_carreras h1 {
   font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  text-align: center;
   color: #F7F7F7;
+  width: 80%;
 }
 
-.Banner button {
+.contenedor_carreras button {
   margin-top: 30px;
-  height: 100px;
-  width: 100px;
+  height: 40px;
+  width: 120px;
   border: 1px solid;
   border-color: #F7F7F7;
   background-color: #F7F7F7;
@@ -529,8 +530,89 @@ header {
   font-size: 15px;
 }
 
-.Banner button:active {
+.contenedor_carreras button:active {
   -webkit-box-shadow: 0 0 20px red;
           box-shadow: 0 0 20px red;
+}
+
+.rangos_h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid black;
+  -webkit-box-shadow: 5px 5px 10px gray;
+          box-shadow: 5px 5px 10px gray;
+  background-color: #F7F7F7;
+  margin-bottom: 50px;
+}
+
+.rangos_h2 h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #0A0A0A;
+}
+
+.contenedor_rangos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor_rangos .contenedor_Gran-almirante, .contenedor_rangos .contenedor_almirante-de-flota, .contenedor_rangos .contenedor_almirante, .contenedor_rangos .contenedor_vicealmirante, .contenedor_rangos .contenedor_contralmirante {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 60px;
+}
+
+.contenedor_rangos .contenedor_Gran-almirante h3, .contenedor_rangos .contenedor_almirante-de-flota h3, .contenedor_rangos .contenedor_almirante h3, .contenedor_rangos .contenedor_vicealmirante h3, .contenedor_rangos .contenedor_contralmirante h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #0A0A0A;
+  margin-bottom: 50px;
+}
+
+.contenedor_rangos .contenedor_Gran-almirante img, .contenedor_rangos .contenedor_almirante-de-flota img, .contenedor_rangos .contenedor_almirante img, .contenedor_rangos .contenedor_vicealmirante img, .contenedor_rangos .contenedor_contralmirante img {
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 10px gray;
+          box-shadow: 5px 5px 10px gray;
+  margin-bottom: 20px;
+}
+
+.contenedor_rangos .contenedor_Gran-almirante p, .contenedor_rangos .contenedor_almirante-de-flota p, .contenedor_rangos .contenedor_almirante p, .contenedor_rangos .contenedor_vicealmirante p, .contenedor_rangos .contenedor_contralmirante p {
+  font-size: 15px;
+  text-align: center;
+  color: #0A0A0A;
 }
 /*# sourceMappingURL=estilos.css.map */
