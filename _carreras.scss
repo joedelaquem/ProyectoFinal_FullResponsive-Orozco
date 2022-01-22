@@ -34,8 +34,10 @@
     @include Display4;
     border: 2px solid black;
     box-shadow: map-get($Shadow , Inactiva);
-    background-color: map-get($Colores, 2);
+    background-color: map-get($Colores, 1);
     margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
 
         h2{
             font-size: 25px;

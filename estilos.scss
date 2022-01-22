@@ -7,6 +7,9 @@
 body{
     background-color: #D6D6D6;
 }
+main{
+    background-color: #F7F7F7;
+}
 
 $Shadow: (
     Inactiva: 5px 5px 10px gray,
@@ -64,3 +67,5 @@ $Colores: (
 @import "footer";
 @import "nuestro-trabajo";
 @import "carreras";
+
+@import "Unite";

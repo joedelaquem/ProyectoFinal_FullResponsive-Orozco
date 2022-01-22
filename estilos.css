@@ -9,6 +9,10 @@ body {
   background-color: #D6D6D6;
 }
 
+main {
+  background-color: #F7F7F7;
+}
+
 /*  Mixins  */
 header {
   margin-bottom: 50px;
@@ -552,8 +556,10 @@ header {
   border: 2px solid black;
   -webkit-box-shadow: 5px 5px 10px gray;
           box-shadow: 5px 5px 10px gray;
-  background-color: #F7F7F7;
+  background-color: #D6D6D6;
   margin-bottom: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .rangos_h2 h2 {
@@ -614,5 +620,126 @@ header {
   font-size: 15px;
   text-align: center;
   color: #0A0A0A;
+}
+
+.contenedor_unite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor_unite h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #0A0A0A;
+}
+
+.contenedor_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 850px;
+  width: 100%;
+}
+
+.contenedor_form .formulario {
+  height: 700px;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.contenedor_form label {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #0A0A0A;
+}
+
+.contenedor_form input {
+  height: 30px;
+  width: 250px;
+  border: 1px solid black;
+  -webkit-box-shadow: 5px 5px 10px gray;
+          box-shadow: 5px 5px 10px gray;
+}
+
+.contenedor_form input:focus-visible {
+  border: 2px solid black;
+  -webkit-box-shadow: 0 0 20px red;
+          box-shadow: 0 0 20px red;
+}
+
+.contenedor_form select {
+  height: 30px;
+  width: 180px;
+  border: 1px solid black;
+  -webkit-box-shadow: 5px 5px 10px gray;
+          box-shadow: 5px 5px 10px gray;
+}
+
+.contenedor_form select:focus-visible {
+  border: 2px solid black;
+  -webkit-box-shadow: 0 0 20px red;
+          box-shadow: 0 0 20px red;
+}
+
+.contenedor_form textarea {
+  height: 200px;
+  width: 250px;
+  border: 1px solid black;
+  -webkit-box-shadow: 5px 5px 10px gray;
+          box-shadow: 5px 5px 10px gray;
+}
+
+.contenedor_form textarea:focus-visible {
+  border: 2px solid black;
+  -webkit-box-shadow: 0 0 20px red;
+          box-shadow: 0 0 20px red;
+}
+
+.contenedor_form button {
+  height: 30px;
+  width: 180px;
+  border: 1px solid black;
+  -webkit-box-shadow: 5px 5px 10px gray;
+          box-shadow: 5px 5px 10px gray;
+}
+
+.contenedor_form button:active {
+  -webkit-box-shadow: 0 0 20px red;
+          box-shadow: 0 0 20px red;
 }
 /*# sourceMappingURL=estilos.css.map */
