@@ -38,7 +38,7 @@
         }
         input:focus-visible{
             border: 2px solid black;
-            box-shadow: map-get($Shadow , Activa);
+            box-shadow: 0 0 20px black;
         }
 
         select{
@@ -49,7 +49,7 @@
         }
         select:focus-visible{
             border: 2px solid black;
-            box-shadow: map-get($Shadow , Activa);
+            box-shadow: 0 0 20px black;
         }
 
         textarea{
@@ -60,7 +60,7 @@
         }
         textarea:focus-visible{
             border: 2px solid black;
-            box-shadow: map-get($Shadow , Activa);
+            box-shadow: 0 0 20px black;
         }
 
         button{
@@ -70,7 +70,7 @@
             box-shadow: map-get($Shadow , Inactiva);
         }
         button:active{
-            box-shadow: map-get($Shadow, Activa);
+            box-shadow: 0 0 20px black;
         }
         
 }
