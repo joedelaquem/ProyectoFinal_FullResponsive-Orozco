@@ -21,7 +21,6 @@
         }
 }
 
-
 .contenedor_articulo{
     @include Display3;
     margin-bottom: 50px;
@@ -79,4 +78,150 @@
         .contenedor_expandiendo{
             @extend .contenedor_atat;
         }
+}
+
+
+/*   Media Queries   */
+
+
+@media (min-width: 1024px){
+    .contenedor_nuestrotrabajo{
+        @include Display3;
+        background-image: url(./Assets/nuestrotrabajo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        margin-bottom: 100px;
+        box-shadow: map-get($Shadow , Inactiva);
+    
+            h1{
+                font-size: 40px;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+                color: map-get($Colores , 2);
+            }
+    
+            p{
+                width: 70%;
+                height: 70px;
+                color: map-get($Colores, 2)
+            }
+    }
+    
+    
+    .contenedor_articulo{
+        @include Display3;
+        margin-bottom: 50px;
+    
+            .contenedor_iframe{
+                display: grid;
+                grid-template-columns: 40% 60%;
+                justify-items: center;
+                align-items: center;
+                margin-bottom: 50px;
+                width: 90%;
+    
+                    iframe{
+                        width: 500px;
+                        height: 300px;
+                        border-radius: 10px;
+                        margin-bottom: 20px;
+                        box-shadow: map-get($Shadow , Inactiva);
+                    }
+    
+                    p{
+                        text-align: center;
+                        font-size: 15px;
+                        margin-left: 20px;
+                        margin-right: 20px;
+                    }
+            }
+    }
+    
+    .contenedor_articulo2{
+        @include Display3;
+        margin-bottom: 50px;
+    
+            .contenedor_atat{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: flex-start;
+                margin-bottom: 50px;
+                width: 90%;
+                margin-bottom: 50px;
+                width: 90%;
+    
+                img{
+                    height: 350px;
+                    width: 400px;
+                    border-radius: 15px;
+                    box-shadow: map-get($Shadow , Inactiva);
+                    margin-bottom: 20px;
+                }
+        
+                    p{
+                        text-align: center;
+                        font-size: 15px;
+                        margin-left: 20px;
+                        margin-right: 20px;
+                        margin-top: 50px;
+                    }
+            }
+
+
+            .contenedor_conectando{
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: center;
+                align-items: flex-start;
+                margin-bottom: 50px;
+                width: 90%;
+    
+                img{
+                    height: 350px;
+                    width: 400px;
+                    border-radius: 15px;
+                    box-shadow: map-get($Shadow , Inactiva);
+                    margin-bottom: 20px;
+                }
+        
+                    p{
+                        text-align: center;
+                        font-size: 15px;
+                        margin-left: 20px;
+                        margin-right: 20px;
+                        margin-top: 50px;
+                    }
+            }
+
+            .contenedor_expandiendo{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: flex-start;
+                margin-bottom: 50px;
+                width: 90%;
+                margin-bottom: 50px;
+                width: 90%;
+    
+                img{
+                    height: 350px;
+                    width: 400px;
+                    border-radius: 15px;
+                    box-shadow: map-get($Shadow , Inactiva);
+                    margin-bottom: 20px;
+                }
+        
+                    p{
+                        text-align: center;
+                        font-size: 15px;
+                        margin-left: 20px;
+                        margin-right: 20px;
+                        margin-top: 50px;
+                    }
+            }
+    
+            
+    }
 }
