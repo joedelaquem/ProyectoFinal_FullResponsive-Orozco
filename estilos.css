@@ -1596,6 +1596,167 @@ footer p a:active {
   }
 }
 
+.Quienes-somos-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(./Assets/quienes-somos-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 10px 10px 10px gray;
+          box-shadow: 10px 10px 10px gray;
+}
+
+.Quienes-somos-banner h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #F7F7F7;
+  margin-top: 70px;
+}
+
+.quienes-somos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.quienes-somos .Darth-Sidious, .quienes-somos .Darth-Vader, .quienes-somos .Moff-Tarkin, .quienes-somos .CassioTagge, .quienes-somos .Marine, .quienes-somos .Trooper, .quienes-somos .Scout, .quienes-somos .Piloto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 550px;
+}
+
+.quienes-somos .Darth-Sidious img, .quienes-somos .Darth-Vader img, .quienes-somos .Moff-Tarkin img, .quienes-somos .CassioTagge img, .quienes-somos .Marine img, .quienes-somos .Trooper img, .quienes-somos .Scout img, .quienes-somos .Piloto img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid red;
+  -webkit-box-shadow: 10px 10px 10px gray;
+          box-shadow: 10px 10px 10px gray;
+  margin-bottom: 30px;
+}
+
+.quienes-somos .Darth-Sidious p, .quienes-somos .Darth-Vader p, .quienes-somos .Moff-Tarkin p, .quienes-somos .CassioTagge p, .quienes-somos .Marine p, .quienes-somos .Trooper p, .quienes-somos .Scout p, .quienes-somos .Piloto p {
+  width: 200px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/*  Media Queries  */
+@media (min-width: 1024px) {
+  .Quienes-somos-banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: url(./Assets/Quienessomos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 10px 10px 10px gray;
+            box-shadow: 10px 10px 10px gray;
+  }
+  .Quienes-somos-banner h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #0A0A0A;
+    margin-top: 70px;
+  }
+  .quienes-somos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: none;
+    border-top: 1px solid black;
+  }
+  .quienes-somos .Darth-Sidious, .quienes-somos .Darth-Vader, .quienes-somos .Moff-Tarkin, .quienes-somos .CassioTagge, .quienes-somos .Marine, .quienes-somos .Trooper, .quienes-somos .Scout, .quienes-somos .Piloto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 550px;
+  }
+  .quienes-somos .Darth-Sidious img, .quienes-somos .Darth-Vader img, .quienes-somos .Moff-Tarkin img, .quienes-somos .CassioTagge img, .quienes-somos .Marine img, .quienes-somos .Trooper img, .quienes-somos .Scout img, .quienes-somos .Piloto img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid red;
+    -webkit-box-shadow: 10px 10px 10px gray;
+            box-shadow: 10px 10px 10px gray;
+    margin-bottom: 30px;
+  }
+  .quienes-somos .Darth-Sidious p, .quienes-somos .Darth-Vader p, .quienes-somos .Moff-Tarkin p, .quienes-somos .CassioTagge p, .quienes-somos .Marine p, .quienes-somos .Trooper p, .quienes-somos .Scout p, .quienes-somos .Piloto p {
+    width: 200px;
+    text-align: center;
+    font-size: 15px;
+  }
+}
+
 .contenedor_unite {
   display: -webkit-box;
   display: -ms-flexbox;
