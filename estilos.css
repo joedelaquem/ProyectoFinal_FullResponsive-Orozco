@@ -1645,7 +1645,6 @@ footer p a:active {
   margin-bottom: 50px;
   margin-left: 30px;
   margin-right: 30px;
-  border-bottom: 1px solid black;
   border-top: 1px solid black;
 }
 
@@ -1722,7 +1721,6 @@ footer p a:active {
     margin-bottom: 50px;
     margin-left: 30px;
     margin-right: 30px;
-    border-bottom: none;
     border-top: 1px solid black;
   }
   .quienes-somos .Darth-Sidious, .quienes-somos .Darth-Vader, .quienes-somos .Moff-Tarkin, .quienes-somos .CassioTagge, .quienes-somos .Marine, .quienes-somos .Trooper, .quienes-somos .Scout, .quienes-somos .Piloto {
