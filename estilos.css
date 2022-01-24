@@ -1880,8 +1880,8 @@ footer p a:active {
   }
   .contenedor_form textarea:focus-visible {
     border: 2px solid black;
-    -webkit-box-shadow: 0 0 20px black;
-            box-shadow: 0 0 20px black;
+    -webkit-box-shadow: 10px 10px 10px gray;
+            box-shadow: 10px 10px 10px gray;
   }
   .contenedor_form button {
     display: -webkit-box;
