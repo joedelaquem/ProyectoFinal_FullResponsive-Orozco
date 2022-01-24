@@ -96,3 +96,274 @@
             @extend .contenedor_Gran-almirante;
         }
 }
+
+
+/*   Media Queries   */
+
+@media (min-width: 1024px){
+    .contenedor_carreras{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./Assets/carreras_banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        margin-bottom: 100px;
+        box-shadow: map-get($Shadow , Inactiva);
+    
+            h1{
+                font-size: 40px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                color: map-get($Colores , 2);
+                width: 900px;
+            }
+    
+                button{
+                    margin-top: 30px;
+                    height: 40px;
+                    width: 140px;
+                    border: 1px solid;
+                    border-color: map-get($Colores, 2);
+                    background-color: map-get($Colores, 2);
+                    border-radius: 2px;
+                    font-size: 15px;
+                    transition: all 1s;
+                }
+                button:hover{
+                    box-shadow: map-get($Shadow , Blanco);
+                }
+    }
+    
+    .rangos_h2{
+        @include Display4;
+        border: 2px solid black;
+        box-shadow: map-get($Shadow , Inactiva);
+        background-color: map-get($Colores, 1);
+        margin-bottom: 150px;
+        margin-right: 20px;
+        margin-left: 20px;
+    
+            h2{
+                font-size: 25px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                color: map-get($Colores , 3);
+            }
+    }
+    
+    .contenedor_rangos{
+        @include Display3;
+    
+            .contenedor_Gran-almirante{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-bottom: 80px;
+                height: 150px;
+    
+                    h3{
+                        display: flex;
+                        font-size: 25px;
+                        text-transform: uppercase;
+                        color: map-get($Colores , 3);
+                        text-align: start;
+                        margin: 0 40px 0 0;
+                        padding: 0 0 80px 0;
+                        align-self: center;
+                        width: 300px;
+                    }
+    
+                        img{
+                            border-radius: 5px;
+                            box-shadow: none;
+                            margin: 0;
+                            align-self: center;
+                        }
+    
+                        p{
+                            display: flex;
+                            align-self: center;
+                            font-size: 15px;
+                            text-align: center;
+                            color: map-get($Colores , 3);
+                            margin-left: 20px;
+                            margin-right: 20px;
+                            padding: 0 20px 0 20px;
+                            width: 600px;
+                            text-align: start;
+                            margin-top: 0;
+                        }
+            }
+    
+    
+            .contenedor_almirante-de-flota{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-bottom: 80px;
+                height: 150px;
+    
+                    h3{
+                        display: flex;
+                        font-size: 25px;
+                        text-transform: uppercase;
+                        color: map-get($Colores , 3);
+                        text-align: start;
+                        margin: 0 40px 0 0;
+                        padding: 0 0 80px 0;
+                        align-self: center;
+                        width: 300px;
+                    }
+    
+                        img{
+                            border-radius: 5px;
+                            box-shadow: none;
+                            margin: 0;
+                            align-self: center;
+                        }
+    
+                        p{
+                            display: flex;
+                            align-self: center;
+                            font-size: 15px;
+                            text-align: center;
+                            color: map-get($Colores , 3);
+                            margin-left: 20px;
+                            margin-right: 20px;
+                            padding: 0 20px 0 20px;
+                            width: 600px;
+                            text-align: start;
+                            margin-top: 0;
+                        }
+            }
+    
+    
+            .contenedor_almirante{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-bottom: 80px;
+                height: 150px;
+    
+                    h3{
+                        display: flex;
+                        font-size: 25px;
+                        text-transform: uppercase;
+                        color: map-get($Colores , 3);
+                        text-align: start;
+                        margin: 0 40px 0 0;
+                        padding: 0 0 80px 0;
+                        align-self: center;
+                        width: 300px;
+                    }
+    
+                        img{
+                            border-radius: 5px;
+                            box-shadow: none;
+                            margin: 0;
+                            align-self: center;
+                        }
+    
+                        p{
+                            display: flex;
+                            align-self: center;
+                            font-size: 15px;
+                            text-align: center;
+                            color: map-get($Colores , 3);
+                            margin-left: 20px;
+                            margin-right: 20px;
+                            padding: 0 20px 0 20px;
+                            width: 600px;
+                            text-align: start;
+                            margin-top: 0;
+                        }
+            }
+    
+    
+            .contenedor_vicealmirante{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-bottom: 80px;
+                height: 150px;
+    
+                    h3{
+                        display: flex;
+                        font-size: 25px;
+                        text-transform: uppercase;
+                        color: map-get($Colores , 3);
+                        text-align: start;
+                        margin: 0 40px 0 0;
+                        padding: 0 0 80px 0;
+                        align-self: center;
+                        width: 300px;
+                    }
+    
+                        img{
+                            border-radius: 5px;
+                            box-shadow: none;
+                            margin: 0;
+                            align-self: center;
+                        }
+    
+                        p{
+                            display: flex;
+                            align-self: center;
+                            font-size: 15px;
+                            text-align: center;
+                            color: map-get($Colores , 3);
+                            margin-left: 20px;
+                            margin-right: 20px;
+                            padding: 0 20px 0 20px;
+                            width: 600px;
+                            text-align: start;
+                            margin-top: 0;
+                        }
+            }
+    
+    
+            .contenedor_contralmirante{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-bottom: 120px;
+                height: 150px;
+    
+                    h3{
+                        display: flex;
+                        font-size: 25px;
+                        text-transform: uppercase;
+                        color: map-get($Colores , 3);
+                        text-align: start;
+                        margin: 0 40px 0 0;
+                        padding: 0 0 80px 0;
+                        align-self: center;
+                        width: 300px;
+                    }
+    
+                        img{
+                            border-radius: 5px;
+                            box-shadow: none;
+                            margin: 0;
+                            align-self: center;
+                        }
+    
+                        p{
+                            display: flex;
+                            align-self: center;
+                            font-size: 15px;
+                            text-align: center;
+                            color: map-get($Colores , 3);
+                            margin-left: 20px;
+                            margin-right: 20px;
+                            padding: 0 20px 0 20px;
+                            width: 600px;
+                            text-align: start;
+                            margin-top: 0;
+                        }
+            }
+    }
+}
