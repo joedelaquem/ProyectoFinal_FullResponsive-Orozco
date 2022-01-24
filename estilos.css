@@ -1610,13 +1610,10 @@ footer p a:active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.contenedor_unite h1 {
-  font-size: 25px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #0A0A0A;
+  background-image: url(./Assets/iwantyou-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
 }
 
 .contenedor_form {
@@ -1660,9 +1657,16 @@ footer p a:active {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #0A0A0A;
+  margin-left: 60px;
+  margin-top: 30px;
 }
 
 .contenedor_form input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
   height: 30px;
   width: 250px;
   border: 1px solid black;
@@ -1677,6 +1681,12 @@ footer p a:active {
 }
 
 .contenedor_form select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-right: 70px;
   height: 30px;
   width: 180px;
   border: 1px solid black;
@@ -1691,6 +1701,11 @@ footer p a:active {
 }
 
 .contenedor_form textarea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
   height: 200px;
   width: 250px;
   border: 1px solid black;
@@ -1705,6 +1720,18 @@ footer p a:active {
 }
 
 .contenedor_form button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
   height: 30px;
   width: 180px;
   border: 1px solid black;
@@ -1715,5 +1742,173 @@ footer p a:active {
 .contenedor_form button:active {
   -webkit-box-shadow: 0 0 20px black;
           box-shadow: 0 0 20px black;
+}
+
+/*   Media Queries   */
+@media (min-width: 1024px) {
+  .contenedor_unite {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: url(./Assets/iwantyou.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+  }
+  .contenedor_form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 1400px;
+    width: 100%;
+  }
+  .contenedor_form .formulario {
+    height: 1200px;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  .contenedor_form label {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #0A0A0A;
+    margin-left: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .contenedor_form input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    height: 40px;
+    width: 350px;
+    border: 1px solid black;
+    -webkit-box-shadow: 10px 10px 10px gray;
+            box-shadow: 10px 10px 10px gray;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  .contenedor_form input:hover {
+    -webkit-box-shadow: 0 0 20px red;
+            box-shadow: 0 0 20px red;
+  }
+  .contenedor_form input:focus-visible {
+    border: 2px solid black;
+    -webkit-box-shadow: 10px 10px 10px gray;
+            box-shadow: 10px 10px 10px gray;
+  }
+  .contenedor_form select {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    height: 40px;
+    width: 180px;
+    border: 1px solid black;
+    -webkit-box-shadow: 10px 10px 10px gray;
+            box-shadow: 10px 10px 10px gray;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  .contenedor_form select:hover {
+    -webkit-box-shadow: 0 0 20px red;
+            box-shadow: 0 0 20px red;
+  }
+  .contenedor_form select:focus-visible {
+    border: 2px solid black;
+    -webkit-box-shadow: 10px 10px 10px gray;
+            box-shadow: 10px 10px 10px gray;
+  }
+  .contenedor_form textarea {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    height: 250px;
+    width: 400px;
+    border: 1px solid black;
+    -webkit-box-shadow: 10px 10px 10px gray;
+            box-shadow: 10px 10px 10px gray;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  .contenedor_form textarea:hover {
+    -webkit-box-shadow: 0 0 20px red;
+            box-shadow: 0 0 20px red;
+  }
+  .contenedor_form textarea:focus-visible {
+    border: 2px solid black;
+    -webkit-box-shadow: 0 0 20px black;
+            box-shadow: 0 0 20px black;
+  }
+  .contenedor_form button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 50px;
+    height: 50px;
+    width: 220px;
+    border: 1px solid black;
+    -webkit-box-shadow: 10px 10px 10px gray;
+            box-shadow: 10px 10px 10px gray;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  .contenedor_form button:active {
+    -webkit-box-shadow: 0 0 20px black;
+            box-shadow: 0 0 20px black;
+  }
+  .contenedor_form button:hover {
+    -webkit-box-shadow: 0 0 20px red;
+            box-shadow: 0 0 20px red;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
