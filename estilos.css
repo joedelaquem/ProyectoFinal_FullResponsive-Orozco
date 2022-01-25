@@ -401,7 +401,7 @@ header {
     color: #0A0A0A;
   }
   .Encabezado p {
-    width: 700px;
+    width: 1000px;
     height: 50px;
     margin-left: 70px;
     margin-right: 70px;
@@ -435,6 +435,11 @@ header {
     margin-bottom: 20px;
   }
   .Nota1 p, .Nota2 p, .Nota3 p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
     text-align: center;
     font-size: 15px;
     margin-left: 50px;
@@ -467,6 +472,11 @@ header {
     margin-bottom: 20px;
   }
   .Nota2 p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
     text-align: center;
     font-size: 15px;
     margin-left: 50px;
@@ -492,13 +502,18 @@ header {
   }
   .Nota3 img {
     height: 400px;
-    width: 600px;
+    width: 450px;
     border-radius: 15px;
     -webkit-box-shadow: 10px 10px 10px gray;
             box-shadow: 10px 10px 10px gray;
     margin-bottom: 20px;
   }
   .Nota3 p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
     text-align: center;
     font-size: 15px;
     margin-left: 50px;
